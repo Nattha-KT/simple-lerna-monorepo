@@ -37,13 +37,15 @@ Together, **Lerna** and **Yarn Workspaces** enable a streamlined workflow. Lerna
 The project is organized into the following packages:
 
 - `/packages/node-server`: A Node.js/Express API service.
-- `/packages/react-app`: A utility library that can be shared across other packages.
+- `/packages/react-app`: A Application for rendering.
+- `/packages/shared-utils`: A utility library that can be shared across other packages.
 
 ## Getting Started
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) (v14 or later)
+- [Node.js](https://nodejs.org/) (v18.10 or later)
+- [Express](https://expressjs.com/) (v4.21 or later)
 - [Yarn](https://yarnpkg.com/) (v1.22 or later)
 - [Lerna](https://lerna.js.org/) (v5 or later)
 
@@ -52,7 +54,7 @@ The project is organized into the following packages:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/simple-lerna-monorepo.git
+   git clone https://github.com/Nattha-KT/simple-lerna-monorepo.git
    cd simple-lerna-monorepo
    ```
 
@@ -61,12 +63,8 @@ The project is organized into the following packages:
    ```bash
    yarn install
    ```
+`Notice: ` Adjust the version of typescript in each module to be consistent.
 
-3. Bootstrap the project with Lerna, linking all packages together:
-
-   ```bash
-   yarn lerna bootstrap
-   ```
 
 ### Running the Project
 
