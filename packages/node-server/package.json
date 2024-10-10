@@ -1,5 +1,5 @@
 {
-  "name": "@main-space/node-server",
+  "name": "@space/node-server",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",

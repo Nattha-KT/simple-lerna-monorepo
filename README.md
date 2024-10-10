@@ -78,7 +78,7 @@ The `-W` flag (which stands for "workspace root") adds the dependency to the roo
 To start the Express.js API:
 
 ```bash
-yarn workspace @packages/react-app start
+yarn workspace @space/react-app start
 ```
 
 The API will run on `http://localhost:3000`.
