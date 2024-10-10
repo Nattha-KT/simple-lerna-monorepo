@@ -37,8 +37,8 @@ Together, **Lerna** and **Yarn Workspaces** enable a streamlined workflow. Lerna
 The project is organized into the following packages:
 
 - `/packages/node-server`: A Node.js/Express API service.
-- `/packages/react-app`: A Application for rendering.
-- `/packages/shared-utils`: A utility library that can be shared across other packages.
+- `/packages/react-app`: React Application for rendering.
+<!-- - `/packages/shared-utils`: A utility library that can be shared across other packages. -->
 
 ## Getting Started
 
@@ -65,13 +65,20 @@ The project is organized into the following packages:
    ```
 `Notice: ` Adjust the version of typescript in each module to be consistent.
 
+### How to add dependencies in workspace root
+   ```bash
+   yarn add lodash -W
+   ```
+The `-W` flag (which stands for "workspace root") adds the dependency to the root `package.json` of your monorepo.
+
+`practical fact: ` Lodash is a popular JavaScript utility library that provides a wide range of helpful functions for working with arrays, objects, strings, numbers, and more
 
 ### Running the Project
 
 To start the Express.js API:
 
 ```bash
-yarn workspace @monorepo/api start
+yarn workspace @packages/react-app start
 ```
 
 The API will run on `http://localhost:3000`.
