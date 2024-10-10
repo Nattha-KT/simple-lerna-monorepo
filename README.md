@@ -1,6 +1,3 @@
-Here's the updated `README.md` with additional details on how Lerna and Yarn Workspaces work together seamlessly:
-
----
 
 # Simple Lerna Monorepo
 
@@ -102,5 +99,3 @@ This project serves as a learning tool for setting up a monorepo with Lerna and 
 This project is licensed under the MIT License.
 
 ---
-
-This version emphasizes how Lerna and Yarn Workspaces work hand-in-hand to create an efficient monorepo setup!
